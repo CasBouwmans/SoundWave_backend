@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\casbo\\source\\repos\\SoundWave api\\SoundWave APP\\SoundWave APP.csproj": {}
+    "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\SoundWave APP\\SoundWave APP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\App.Data.csproj": {
+    "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Data\\App.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\App.Data.csproj",
+        "projectUniqueName": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Data\\App.Data.csproj",
         "projectName": "App.Data",
-        "projectPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\App.Data.csproj",
+        "projectPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Data\\App.Data.csproj",
         "packagesPath": "C:\\Users\\casbo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\obj\\",
+        "outputPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Domain\\App.Domain.csproj": {
-                "projectPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Domain\\App.Domain.csproj"
+              "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Domain\\App.Domain.csproj": {
+                "projectPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Domain\\App.Domain.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Domain\\App.Domain.csproj": {
+    "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Domain\\App.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Domain\\App.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Domain\\App.Domain.csproj",
         "projectName": "App.Domain",
-        "projectPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Domain\\App.Domain.csproj",
+        "projectPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Domain\\App.Domain.csproj",
         "packagesPath": "C:\\Users\\casbo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -186,14 +186,14 @@
         }
       }
     },
-    "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Services\\App.Services.csproj": {
+    "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Services\\App.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Services\\App.Services.csproj",
+        "projectUniqueName": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Services\\App.Services.csproj",
         "projectName": "App.Services",
-        "projectPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Services\\App.Services.csproj",
+        "projectPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Services\\App.Services.csproj",
         "packagesPath": "C:\\Users\\casbo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Services\\obj\\",
+        "outputPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -215,11 +215,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\App.Data.csproj": {
-                "projectPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\App.Data.csproj"
+              "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Data\\App.Data.csproj": {
+                "projectPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Data\\App.Data.csproj"
               },
-              "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Domain\\App.Domain.csproj": {
-                "projectPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Domain\\App.Domain.csproj"
+              "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Domain\\App.Domain.csproj": {
+                "projectPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Domain\\App.Domain.csproj"
               }
             }
           }
@@ -284,14 +284,14 @@
         }
       }
     },
-    "C:\\Users\\casbo\\source\\repos\\SoundWave api\\SoundWave APP\\SoundWave APP.csproj": {
+    "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\SoundWave APP\\SoundWave APP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\SoundWave APP\\SoundWave APP.csproj",
+        "projectUniqueName": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\SoundWave APP\\SoundWave APP.csproj",
         "projectName": "SoundWave APP",
-        "projectPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\SoundWave APP\\SoundWave APP.csproj",
+        "projectPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\SoundWave APP\\SoundWave APP.csproj",
         "packagesPath": "C:\\Users\\casbo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\SoundWave APP\\obj\\",
+        "outputPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\SoundWave APP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -313,8 +313,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Services\\App.Services.csproj": {
-                "projectPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Services\\App.Services.csproj"
+              "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Services\\App.Services.csproj": {
+                "projectPath": "C:\\Users\\casbo\\source\\repos\\My_next_backend_app\\Services\\App.Services.csproj"
               }
             }
           }
