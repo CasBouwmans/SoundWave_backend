@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SoundWave APP.props" />
+</Project>

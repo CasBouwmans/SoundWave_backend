@@ -1,0 +1,15 @@
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\bin\Debug\net8.0\SoundWave api.ApiWrapper.deps.json
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\bin\Debug\net8.0\SoundWave api.ApiWrapper.dll
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\bin\Debug\net8.0\SoundWave api.ApiWrapper.pdb
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\bin\Debug\net8.0\SoundWave api.core.dll
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\bin\Debug\net8.0\SoundWave api.core.pdb
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\obj\Debug\net8.0\SoundWave api.ApiWrapper.csproj.AssemblyReference.cache
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\obj\Debug\net8.0\SoundWave api.ApiWrapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\obj\Debug\net8.0\SoundWave api.ApiWrapper.AssemblyInfoInputs.cache
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\obj\Debug\net8.0\SoundWave api.ApiWrapper.AssemblyInfo.cs
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\obj\Debug\net8.0\SoundWave api.ApiWrapper.csproj.CoreCompileInputs.cache
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\obj\Debug\net8.0\SoundWav.DF747776.Up2Date
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\obj\Debug\net8.0\SoundWave api.ApiWrapper.dll
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\obj\Debug\net8.0\refint\SoundWave api.ApiWrapper.dll
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\obj\Debug\net8.0\SoundWave api.ApiWrapper.pdb
+C:\Users\casbo\source\repos\SoundWave api\SoundWave api.ApiWrapper\obj\Debug\net8.0\ref\SoundWave api.ApiWrapper.dll

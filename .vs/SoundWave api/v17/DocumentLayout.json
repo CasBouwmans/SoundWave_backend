@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7FAEBCF-9327-4E3A-983A-E5BFE84ED3F9}|SoundWave APP\\SoundWave APP.csproj|c:\\users\\casbo\\source\\repos\\soundwave api\\soundwave app\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7FAEBCF-9327-4E3A-983A-E5BFE84ED3F9}|SoundWave APP\\SoundWave APP.csproj|solutionrelative:soundwave app\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA077141-42EA-4604-AD03-547B8816C616}|Domain\\App.Domain.csproj|c:\\users\\casbo\\source\\repos\\soundwave api\\domain\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA077141-42EA-4604-AD03-547B8816C616}|Domain\\App.Domain.csproj|solutionrelative:domain\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691A7742-69AC-479E-A9D2-4E21BD1076D6}|Services\\App.Services.csproj|c:\\users\\casbo\\source\\repos\\soundwave api\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691A7742-69AC-479E-A9D2-4E21BD1076D6}|Services\\App.Services.csproj|solutionrelative:services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D2E4F11-912F-4769-9431-215536C73258}|Data\\App.Data.csproj|c:\\users\\casbo\\source\\repos\\soundwave api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D2E4F11-912F-4769-9431-215536C73258}|Data\\App.Data.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D2E4F11-912F-4769-9431-215536C73258}|Data\\App.Data.csproj|c:\\users\\casbo\\source\\repos\\soundwave api\\data\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D2E4F11-912F-4769-9431-215536C73258}|Data\\App.Data.csproj|solutionrelative:data\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7FAEBCF-9327-4E3A-983A-E5BFE84ED3F9}|SoundWave APP\\SoundWave APP.csproj|c:\\users\\casbo\\source\\repos\\soundwave api\\soundwave app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7FAEBCF-9327-4E3A-983A-E5BFE84ED3F9}|SoundWave APP\\SoundWave APP.csproj|solutionrelative:soundwave app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D2E4F11-912F-4769-9431-215536C73258}|Data\\App.Data.csproj|c:\\users\\casbo\\source\\repos\\soundwave api\\data\\migrations\\20241204135821_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D2E4F11-912F-4769-9431-215536C73258}|Data\\App.Data.csproj|solutionrelative:data\\migrations\\20241204135821_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 154,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241204135821_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\Migrations\\20241204135821_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20241204135821_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\Migrations\\20241204135821_InitialCreate.cs",
+              "RelativeToolTip": "Data\\Migrations\\20241204135821_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:58:22.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\SoundWave APP\\Program.cs",
+              "RelativeDocumentMoniker": "SoundWave APP\\Program.cs",
+              "ToolTip": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\SoundWave APP\\Program.cs",
+              "RelativeToolTip": "SoundWave APP\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:06:16.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\SoundWave APP\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "SoundWave APP\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\SoundWave APP\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "SoundWave APP\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:59:39.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "Data\\ReviewRepository.cs",
+              "ToolTip": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\ReviewRepository.cs",
+              "RelativeToolTip": "Data\\ReviewRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:08:47.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "Services\\ReviewService.cs",
+              "ToolTip": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Services\\ReviewService.cs",
+              "RelativeToolTip": "Services\\ReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T11:59:06.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAwwAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T11:58:03.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Domain\\Review.cs",
+              "RelativeDocumentMoniker": "Domain\\Review.cs",
+              "ToolTip": "C:\\Users\\casbo\\source\\repos\\SoundWave api\\Domain\\Review.cs",
+              "RelativeToolTip": "Domain\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T11:56:55.773Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
