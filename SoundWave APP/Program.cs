@@ -14,6 +14,15 @@ builder.Services.AddTransient<Services.ReviewService>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"))); // Zorg ervoor dat je een juiste connection string hebt
 
+// Voeg CORS-configuratie toe
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalhost",
+        policy => policy.WithOrigins("http://localhost:3000") // Sta verzoeken van de frontend toe
+                        .AllowAnyHeader()    // Sta alle headers toe
+                        .AllowAnyMethod());  // Sta alle HTTP-methoden toe
+});
+
 // Add services to the container
 builder.Services.AddControllers();
 
@@ -29,6 +38,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Gebruik CORS voor je app
+app.UseCors("AllowLocalhost");
 
 app.UseHttpsRedirection();
 

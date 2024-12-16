@@ -22,7 +22,8 @@ namespace App.Data.Migrations
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
                     TrackId = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<string>(type: "longtext", nullable: false),
-                    ReviewText = table.Column<string>(type: "longtext", nullable: false)
+                    ReviewText = table.Column<string>(type: "longtext", nullable: false),
+                    Rating = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

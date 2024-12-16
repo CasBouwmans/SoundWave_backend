@@ -29,11 +29,11 @@ namespace SoundWave_APP.Controllers
             }
         }
 
-        [HttpGet]
-        public IActionResult GetReviews()
+        [HttpGet("{trackId}")]
+        public IActionResult GetReviews(string trackId)
         {
-            // Haal alle reviews op via de service
-            var reviews = _reviewService.GetReviews();
+            // Haal de reviews op voor de specifieke trackId via de service
+            var reviews = _reviewService.GetReviews(trackId);
 
             if (reviews == null || !reviews.Any())
             {
@@ -42,6 +42,7 @@ namespace SoundWave_APP.Controllers
 
             return Ok(reviews); // Stuur de reviews terug als response
         }
+
     }
 }
 
