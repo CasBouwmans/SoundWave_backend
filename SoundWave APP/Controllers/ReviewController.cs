@@ -43,6 +43,19 @@ namespace SoundWave_APP.Controllers
             return Ok(reviews); // Stuur de reviews terug als response
         }
 
+        [HttpDelete("{trackId}/{reviewId}")]
+        public IActionResult DeleteReview(string trackId, int reviewId)
+        {
+            try
+            {
+                _reviewService.DeleteReview(trackId, reviewId);
+                return Ok("Review verwijderd!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
 

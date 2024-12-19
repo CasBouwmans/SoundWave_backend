@@ -39,5 +39,16 @@ namespace Services
             return _context.Reviews.Where(r => r.TrackId == trackId).ToList(); // Haal reviews op voor een specifiek trackId
         }
 
+        public void DeleteReview(string trackId, int reviewId)
+        {
+            var review = _context.Reviews.FirstOrDefault(r => r.TrackId == trackId && r.Id == reviewId);
+            if (review == null)
+            {
+                throw new InvalidOperationException("Review niet gevonden.");
+            }
+
+            _repository.DeleteReview(trackId, reviewId);
+        }
+
     }
 }

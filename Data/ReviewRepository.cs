@@ -58,7 +58,18 @@ namespace App.Data
             return null; // Geen bestaande review gevonden
         }
 
-
+        public void DeleteReview(string trackId, int reviewId)
+        {
+            using (var connection = new MySqlConnection(_connectionString))
+            {
+                connection.Open();
+                var command = connection.CreateCommand();
+                command.CommandText = @"DELETE FROM reviews WHERE TrackId = @TrackId AND Id = @ReviewId";
+                command.Parameters.AddWithValue("@TrackId", trackId);
+                command.Parameters.AddWithValue("@ReviewId", reviewId);
+                command.ExecuteNonQuery();
+            }
+        }
 
     }
 }
