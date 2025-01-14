@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Connection string instellen
-string connectionString = "Server=host.docker.internal,3306;Database=soundwave;Uid=root;Pwd=";
+string connectionString = "Server=localhost;Database=soundwave;Uid=root;Pwd=";
 
 // Repositories en services registreren
 builder.Services.AddSingleton(new App.Data.ReviewRepository(connectionString));
