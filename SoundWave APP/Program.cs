@@ -23,6 +23,7 @@ builder.Services.AddCors(options =>
                         .AllowAnyMethod());  // Sta alle HTTP-methoden toe
 });
 
+
 // Add services to the container
 builder.Services.AddControllers();
 
@@ -45,6 +46,14 @@ app.UseCors("AllowLocalhost");
 app.UseHttpsRedirection();
 
 app.Urls.Add("http://0.0.0.0:7283");  // Luister op poort 7283
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();  // Zet deze bovenaan
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+
 
 app.UseAuthorization();
 
