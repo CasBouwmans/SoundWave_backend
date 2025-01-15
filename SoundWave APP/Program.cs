@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Connection string instellen
-string connectionString = "Server=localhost;Database=soundwave;Uid=root;Pwd=";
+string connectionString = "Server=host.docker.internal;Database=soundwave;Uid=root;Pwd=;Port=3306"; // Zorg ervoor dat je een juiste connection string hebt
 
 // Repositories en services registreren
 builder.Services.AddSingleton(new App.Data.ReviewRepository(connectionString));
@@ -12,7 +12,7 @@ builder.Services.AddTransient<Services.ReviewService>();
 
 // Voeg de DbContext toe aan de dependency injection container
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"))); // Zorg ervoor dat je een juiste connection string hebt
+    options.UseInMemoryDatabase("SoundwaveDb")); // Zorg ervoor dat je een juiste connection string hebt
 
 // Voeg CORS-configuratie toe
 builder.Services.AddCors(options =>
@@ -36,12 +36,6 @@ builder.Logging.AddConsole();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
 // Gebruik CORS voor je app
 app.UseCors("AllowLocalhost");

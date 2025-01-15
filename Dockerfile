@@ -16,7 +16,7 @@ WORKDIR /app
 COPY --from=build /app/out .
 
 # Exposeer poort 8080
-EXPOSE 8080
+EXPOSE 7283
 
 # Start de applicatie
 ENTRYPOINT ["dotnet", "SoundWave APP.dll"]
