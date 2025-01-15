@@ -1,75 +1,43 @@
 ﻿using Domain;
 using Microsoft.EntityFrameworkCore;
-using MySql.Data.MySqlClient;
 
 namespace App.Data
 {
     public class ReviewRepository
     {
-        private readonly string _connectionString;
+        private readonly AppDbContext _context;
 
-        public ReviewRepository(string connectionString)
+        public ReviewRepository(AppDbContext context)
         {
-            _connectionString = connectionString;
+            _context = context;
         }
 
         public void AddReview(Review review)
         {
-            using (var connection = new MySqlConnection(_connectionString))
-            {
-                connection.Open();
-                var command = connection.CreateCommand();
-                command.CommandText = @"INSERT INTO reviews (TrackId, UserId, ReviewText, Rating) 
-                                VALUES (@TrackId, @UserId, @ReviewText, @Rating)";
-                command.Parameters.AddWithValue("@TrackId", review.TrackId);
-                command.Parameters.AddWithValue("@UserId", review.UserId);
-                command.Parameters.AddWithValue("@ReviewText", review.ReviewText);
-                command.Parameters.AddWithValue("@Rating", review.Rating);
-                command.ExecuteNonQuery();
-            }
+            _context.Reviews.Add(review);
+            _context.SaveChanges();
         }
+
         public Review GetReviewByUserAndTrack(string userId, string trackId)
         {
-            using (var connection = new MySqlConnection(_connectionString))
-            {
-                connection.Open();
-                var command = connection.CreateCommand();
-                command.CommandText = @"SELECT TrackId, UserId, ReviewText, Rating 
-                                FROM reviews 
-                                WHERE UserId = @UserId AND TrackId = @TrackId";
-                command.Parameters.AddWithValue("@UserId", userId);
-                command.Parameters.AddWithValue("@TrackId", trackId);
-
-                using (var reader = command.ExecuteReader())
-                {
-                    if (reader.Read())
-                    {
-                        return new Review
-                        {
-                            TrackId = reader.GetString("TrackId"),
-                            UserId = reader.GetString("UserId"),
-                            ReviewText = reader.GetString("ReviewText"),
-                            Rating = reader.GetInt32("Rating")
-                        };
-                    }
-                }
-            }
-
-            return null; // Geen bestaande review gevonden
+            return _context.Reviews
+                .FirstOrDefault(r => r.UserId == userId && r.TrackId == trackId);
         }
 
         public void DeleteReview(string trackId, int reviewId)
         {
-            using (var connection = new MySqlConnection(_connectionString))
+            var review = _context.Reviews
+                .FirstOrDefault(r => r.TrackId == trackId && r.Id == reviewId);
+            if (review != null)
             {
-                connection.Open();
-                var command = connection.CreateCommand();
-                command.CommandText = @"DELETE FROM reviews WHERE TrackId = @TrackId AND Id = @ReviewId";
-                command.Parameters.AddWithValue("@TrackId", trackId);
-                command.Parameters.AddWithValue("@ReviewId", reviewId);
-                command.ExecuteNonQuery();
+                _context.Reviews.Remove(review);
+                _context.SaveChanges();
             }
         }
 
+        public List<Review> GetReviews(string trackId)
+        {
+            return _context.Reviews.Where(r => r.TrackId == trackId).ToList();
+        }
     }
 }
